@@ -7,6 +7,6 @@ module.exports = {
     cacheDirectory: join(__dirname, '.cache', 'puppeteer'),
 };
 
-await puppeteer.launch({
+puppeteer.launch({
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
 });
