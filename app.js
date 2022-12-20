@@ -3,8 +3,13 @@ const msgReq = require('./all_message.json');
 require('dotenv').config();
 const qrcode = require('qrcode-terminal');
 
-const { Client } = require('whatsapp-web.js');
-const client = new Client();
+// const { Client } = require('whatsapp-web.js');
+// const client = new Client();
+
+const { Client, LocalAuth } = require('whatsapp-web.js');
+const client = new Client({
+    authStrategy: new LocalAuth()
+});
 
 client.on('qr', qr => {
     qrcode.generate(qr, {small: true});
