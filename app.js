@@ -6,14 +6,14 @@ const qrcode = require('qrcode-terminal');
 // const { Client } = require('whatsapp-web.js');
 // const client = new Client();
 
-const { Client, LocalAuth } = require('whatsapp-web.js');
+const { Client, NoAuth } = require('whatsapp-web.js');
 const client = new Client({
     puppeteer: {
         args: [
             '--no-sandbox',
             '--disable-setuid-sandbox'
         ],
-        authStrategy: new LocalAuth()
+        authStrategy: new NoAuth()
     }
 });
 
