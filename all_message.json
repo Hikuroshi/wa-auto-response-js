@@ -1,0 +1,11 @@
+{
+    "message_request": {
+        "sapaan_request": ["halo", "hai", "hi", "hello"],
+        "bye_request": ["bye", "dah", "sampai jumpa", "selamat tinggal"]
+    },
+
+    "message_response": {
+        "sapaan_response": ["Halo juga", "Iya kenapa?", "ada apa?"],
+        "bye_response": ["bye", "iya dah", "sampai jumpa juga", "selamat tinggal"]
+    }
+}
