@@ -20,10 +20,7 @@ client.on('message', message => {
     const number = noHp.substring(1) + "@c.us";
     const noFrom = message.from;
     
-    // Pesan Request
     const req_sapaan = msgReq.message_request.sapaan_request;
-    
-    // Pesan Response 
     const res_sapaan = msgReq.message_response.sapaan_response;
     
     var delayTime = Math.floor(Math.random() * 15000) + 5000;
