@@ -4,7 +4,7 @@
   "description": "Whatsapp auto responder",
   "main": "app.js",
   "scripts": {
-    "start": "node node_modules/puppeteer/install.js && node app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Hikuroshi",
