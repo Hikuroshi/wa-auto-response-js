@@ -3,9 +3,6 @@ const msgReq = require('./all_message.json');
 require('dotenv').config();
 const qrcode = require('qrcode-terminal');
 
-// const { Client } = require('whatsapp-web.js');
-// const client = new Client();
-
 const { Client, NoAuth } = require('whatsapp-web.js');
 const client = new Client({
     puppeteer: {
