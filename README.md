@@ -32,7 +32,7 @@ Install dependencies
 ```
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your `.env` file
+To run this project, you will need to add the following environment variables to your `.env` file.\
 Add environment variables `.env` file to root directory for `NO_HP`.
 
 `NO_HP` is so that the bot is only active when the chat comes from that number.
